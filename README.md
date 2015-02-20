@@ -10,10 +10,22 @@ Demo
 ![alt tag](https://raw.githubusercontent.com/cemolcay/StrechyParallaxScrollView/master/StrechyParallaxScrollView/demo.gif)
 
 
-Usage
-=====
+Install
+-------
+
+### Manual
 
 Copy StrechyParallaxScrollView.h/m files to your project.
+
+### Cocoapods
+
+``` ruby
+	pod 'StrechyParallaxScrollView', '~> 0.1'
+```
+
+Usage
+-----
+
 
     //create the top view
     UIView *topView = [UIView new];
@@ -29,8 +41,8 @@ Copy StrechyParallaxScrollView.h/m files to your project.
 
 Optional Values
 ---------------
-CGFloat parallaxWeight: parallax speed of top view
+`CGFloat parallaxWeight`: parallax speed of top view
 
-BOOL strechs: enable/disable streching behaviour (enabled default)
+`BOOL strechs`: enable/disable streching behaviour (enabled default)
 
-BOOL parallax: enable/disable parallax behaviour (enabled default)
+`BOOL parallax`: enable/disable parallax behaviour (enabled default)
