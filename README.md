@@ -17,7 +17,7 @@ Install
 
 Copy StrechyParallaxScrollView.h/m files to your project.
 
-### Cocoapods
+### CocoaPods
 
 ``` ruby
 	pod 'StrechyParallaxScrollView', '~> 0.1'
